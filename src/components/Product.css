@@ -1,0 +1,37 @@
+.product_item:hover .card {
+  border: 0.08rem solid #fff;
+  box-shadow: 2px 2px 5px 0px #a0a0a0;
+}
+.card-img-top {
+  transition: all 1s linear;
+}
+.image_container {
+  padding: 50px 50px 50px 50px;
+  overflow: hidden;
+}
+.image_container:hover .card-img-top {
+  transform: scale(1.2);
+}
+.product_item .options-cart-round {
+  position: absolute;
+  right: 0;
+  display: none;
+}
+.product_item .options-cart-round button {
+  border-radius: 0 0 0 0.5rem;
+  padding: 0.4rem 0.4rem;
+}
+.product_item .options-cart-round button .fa {
+  font-size: 22px;
+}
+.product_item .card:hover .options-cart-round {
+  display: block;
+  -webkit-animation: fadeInDown 0.9s ease;
+  -moz-animation: fadeInDown 0.9s ease;
+  -ms-animation: fadeInDown 0.9s ease;
+  -o-animation: fadeInDown 0.9s ease;
+  animation: fadeInDown 0.9s ease;
+}
+.product_details {
+  background: dimgrey;
+}
